@@ -1,1 +1,0 @@
-<?php headr('Location: /index.html'); ?>

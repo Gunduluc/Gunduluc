@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	background-color: lightgrey;
+}
+.menu_atas{
+	padding: 5px;
+	background-color: #333;
+}
+.menu_atas a{
+	color: white;
+	padding: 10px 30px;
+	text-decoration: none;
+	font-size: 20px;
+	border-radius: 10px;
+	border: 0px;
+}
+.menu_atas a:hover{
+	background-color: #398;
+	color: black;
+}
+.judul{
+	letter-spacing: 5px;
+	padding: 0px;
+	margin: 0px;
+	font-size: 30px;
+	color: white;
+	float: left;
+	text-align: left;
+	text-transform: uppercase;
+}
+.content{
+	background-color: white;
+	text-align: center;
+	min-height: 500px;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
+	box-shadow: 1px 1px 5px 2px grey;
+	border: 1px solid grey;
+	border-radius: 10px;
+	overflow: auto;
+	position: relative;
+}
+.text{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
+}
+.content_about{
+	background-color: white;
+	min-height: 500px;
+	margin-top: 40px;
+	margin-right: 50px;
+	margin-left: 50px;
+	box-shadow: 1px 1px 5px 2px grey;
+	border: 1px solid grey;
+	border-radius: 10px;
+	overflow: auto;
+	position: relative;
+	padding-right: 40px;
+	padding-left: 40px;
+	text-align: center;
+}
+.teks_kecil{
+	line-height: 1;
+	font-size: 30px;
+}
+.sidebar{
+	background-color: white;
+	text-align: center;
+	min-height: 460px;
+	min-width: 300px;
+	margin: 40px;
+	float: left;
+	box-shadow: 1px 1px 5px 2px grey;
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding-top: 40px;	
+}
